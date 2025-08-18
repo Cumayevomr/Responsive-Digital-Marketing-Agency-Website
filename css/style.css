@@ -505,3 +505,26 @@ body{
 .price_wrapper .featured .pricing_rate{
     font-size: 40px;
 }
+.free_trial{
+    background: var(--bg-light-2);
+    padding: 80px 0;
+    margin-top: 100px;
+}
+.free_trial .free_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 0;
+    color: var(--text-black);
+}
+.free_trial .learn-more-btn{
+    background: var(--bg-black);
+    border-color: var(--bg-black);
+}
+.free_trial .learn-more-btn .fa{
+    font-size: 22px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    color: rgb(240, 204, 57);
+}
