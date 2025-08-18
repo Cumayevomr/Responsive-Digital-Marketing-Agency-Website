@@ -21,13 +21,16 @@
 
 }
 
+
 @media (max-width: 1070px) {
     /* Navbar */
     .header_wrapper .nav-item .nav-link{
         font-size: 16px;
     }
     /* About */
-
+    .about_wrapper .about_title{
+        font-size: 16px;
+    }
 }
 
 
@@ -63,7 +66,12 @@
     }
 
     /* About */
-
+    .about_wrapper .about_number{
+        margin: 20px auto;
+    }
+    .about_wrapper .about_title{
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 767px) {

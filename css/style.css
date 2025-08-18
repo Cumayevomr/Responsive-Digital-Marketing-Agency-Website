@@ -226,3 +226,55 @@ body{
     height: 50px;
     object-fit: cover;
 }
+/* About Css */
+.about_wrapper{
+    padding: 100px 0 0;
+}
+.about_wrapper .about_number{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 24px;
+    padding: 4px 17px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    max-width: 44px;
+    color: var(--text-white);
+    background-color: var(--bg-dark-green);
+}
+.about_wrapper .about_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    max-width: 1000px;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+.about_wrapper .about_text{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.7;
+    max-width: 700px;
+    color: var(--text-light-2);
+}
+.about_wrapper .innovate{
+    background: var(--bg-light-2);
+    padding: 80px 0;
+}
+.about_wrapper .projects{
+    padding: 30px 0;
+}
+.about_wrapper .projects h2{
+    color: var(--text-orange);
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+.about_wrapper .projects p{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text-light-2);
+}
