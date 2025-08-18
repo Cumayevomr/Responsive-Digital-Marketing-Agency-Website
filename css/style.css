@@ -379,3 +379,83 @@ body{
     display: block;
     margin-top: -70px;
 }
+/* Pricing */
+.price_wrapper{
+    padding: 100px 0 0;
+}
+.price_wrapper .pricing_subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-3);
+}
+.price_wrapper .pricing_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+.price_wrapper .pricing_card{
+    background-color: var(--bg-white);
+    box-shadow: 0 1px 20px rgb(0 0 0 / 15%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px 45px 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.price_wrapper .pricing_card:hover{
+    box-shadow: 0 2px 29px rgb(0 0 0 / 20%);
+    z-index: 5;
+    cursor: pointer;
+}
+.price_wrapper .pricing_period{
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-bottom: 0;
+    color: var(--text-light-2);
+}
+.price_wrapper .pricing_card img{
+    max-width: 75%;
+}
+.price_wrapper .pricing_rate{
+    font-size: 34px;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    color: var(--text-black);
+    line-height: 1.25;
+}
+.price_wrapper .pricing_text{
+    font-size: 12px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    color: var(--text-black);
+    margin: 0;
+}
+.price_wrapper .pricing_all_plan{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    margin: 15px 0;
+}
+.price_wrapper .pricing_all_plan ul{
+    width: 100%;
+    list-style: none;
+    padding-inline-start: 0;
+}
+.price_wrapper .pricing_all_plan li{
+    font-size: 14px;
+    color: var(--text-dark-gray);
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: center;
+    margin-top: 5px;
+}
