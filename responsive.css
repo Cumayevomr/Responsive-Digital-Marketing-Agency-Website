@@ -14,8 +14,10 @@
         padding: 12px 10px !important;
     }
 
-
     /* Banner */
+    .banner_wrapper .banner-title{
+        font-size: 50px;
+    }
 
 }
 
@@ -24,7 +26,6 @@
     .header_wrapper .nav-item .nav-link{
         font-size: 16px;
     }
-
     /* About */
 
 }
@@ -54,4 +55,32 @@
     .header_wrapper .navbar-collapse{
         background: var(--bg-white);
     }
+
+
+    /* Banner Css */
+    .banner_wrapper .banner-title{
+        font-size: 36px;
+    }
+
+    /* About */
+
+}
+
+@media (max-width: 767px) {
+    /* Banner */
+    .banner_wrapper{
+        padding: 100px 0 100px;
+    }
+    .banner_wrapper .row{
+        flex-direction: column-reverse;
+    }
+    .banner_wrapper .learn-more-btn-section{
+        justify-content: center;
+    }
+
+
+    /* Pricing */
+
+
+    /* FAQs */
 }
