@@ -96,4 +96,11 @@
     .faq_wrapper .accordion-button{
         font-size: 18px;
     }
+
+
+
+    /* Footer */
+    .footer_wrapper .footer_logo img{
+        max-width: 50%;
+    }
 }
