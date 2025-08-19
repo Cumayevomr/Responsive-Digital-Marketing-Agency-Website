@@ -574,3 +574,36 @@ body{
     font-weight: 600;
     line-height: 1.5;
 }
+/* Brands Css */
+.brand_wrapper{
+    padding: 100px 0;
+    background: var(--bg-light-2);
+}
+.brand_wrapper .brand_subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-3);
+}
+.brand_wrapper .brand_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+.brand_wrapper .showcase_card img{
+    width: 100%;
+    border-radius: 15px;
+    padding: 45px 25px;
+    background-color: var(--bg-white);
+    box-shadow: 0 5px 40px rgb(0 0 0 / 8%);
+    transition: 0.7s;
+}
+.brand_wrapper .showcase_card img:hover{
+    transform: scale(1.2);
+    position: relative;
+    z-index: 2;
+}
